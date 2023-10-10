@@ -1,0 +1,19 @@
+parameters: {}
+environment: {}
+packages:
+    - name: infrasteady-agent
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+          - name: agent
+            binary: false
+            main: ""
+            runtime: nodejs:18
+            web: true
+            webSecure: false
+            parameters: {}
+            environment: {}
+            annotations: {}
+            limits: {}

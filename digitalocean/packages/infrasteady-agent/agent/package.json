@@ -1,0 +1,13 @@
+{
+  "name": "agent-do",
+  "version": "1.0.0",
+  "description": "Infrasteady serverless agent for digital ocean functions.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Shounak Ghosh <ghosh.shounak1403@gmail.com>",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "got": "^13.0.0"
+  }
+}
